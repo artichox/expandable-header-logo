@@ -3,13 +3,6 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON 'package.json'
     loadPath: require('node-bourbon').includePaths
 
-    env:
-      dev:
-        src: '.env/dev.json'
-
-      prod:
-        src: '.env/production.json'
-
     sass:
       options:
         includePaths: require('node-bourbon').includePaths
@@ -26,7 +19,7 @@ module.exports = (grunt) ->
         dest: 'public/javascripts/'
         ext: ".js"
 
-    clean: ['public/module.js']
+    clean: ['public/module.js', 'public/stylesheets/style.css']
 
     browserify:
       dist:
@@ -51,7 +44,6 @@ module.exports = (grunt) ->
     
   )
 
-  grunt.loadNpmTasks 'grunt-env'
   grunt.loadNpmTasks 'grunt-nodemon'
   grunt.loadNpmTasks 'grunt-browserify'
   grunt.loadNpmTasks 'grunt-sass'
@@ -59,7 +51,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-clean'
 
-  grunt.registerTask 'default', ['sass', 'browserify', 'env:dev', 'nodemon']
-  grunt.registerTask 'production', ['env:prod', 'nodemon']
-  grunt.registerTask 'build:dev', ['env:dev']
-  grunt.registerTask 'build:prod', ['env:prod']
+  grunt.registerTask 'default', ['sass', 'browserify', 'nodemon']

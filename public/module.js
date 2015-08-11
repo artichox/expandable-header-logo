@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/components/Camera.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/user/expandable-header-logo/node_modules/famous/components/Camera.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -313,7 +313,7 @@ Camera.prototype.onTransformChange = function onTransformChange(transform) {
 
 module.exports = Camera;
 
-},{"../core/Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Channel.js":[function(require,module,exports){
+},{"../core/Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Channel.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -430,7 +430,7 @@ Channel.prototype.postMessage = function postMessage(message) {
 
 module.exports = Channel;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Clock.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/Clock.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -640,7 +640,7 @@ Clock.prototype.clearTimer = function (timer) {
 module.exports = Clock;
 
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -855,7 +855,7 @@ commandPrinters[Commands.NEED_SIZE_FOR] = function need_size_for (buffer, data) 
 module.exports = Commands;
 
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -1279,7 +1279,7 @@ function _splitTo (string, target) {
 
 module.exports = new Dispatch();
 
-},{"./Event":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Event.js","./Path":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Event.js":[function(require,module,exports){
+},{"./Event":"/Users/user/expandable-header-logo/node_modules/famous/core/Event.js","./Path":"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Event.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  * 
@@ -1332,7 +1332,7 @@ function stopPropagation () {
 module.exports = Event;
 
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/FamousEngine.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/FamousEngine.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -1803,7 +1803,7 @@ FamousEngine.prototype.stopEngine = function stopEngine() {
 
 module.exports = new FamousEngine();
 
-},{"../render-loops/RequestAnimationFrameLoop":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/render-loops/RequestAnimationFrameLoop.js","../renderers/Compositor":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/Compositor.js","../renderers/UIManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/UIManager.js","./Channel":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Channel.js","./Clock":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Clock.js","./Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js","./Dispatch":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Scene":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Scene.js","./SizeSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./TransformSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Node.js":[function(require,module,exports){
+},{"../render-loops/RequestAnimationFrameLoop":"/Users/user/expandable-header-logo/node_modules/famous/render-loops/RequestAnimationFrameLoop.js","../renderers/Compositor":"/Users/user/expandable-header-logo/node_modules/famous/renderers/Compositor.js","../renderers/UIManager":"/Users/user/expandable-header-logo/node_modules/famous/renderers/UIManager.js","./Channel":"/Users/user/expandable-header-logo/node_modules/famous/core/Channel.js","./Clock":"/Users/user/expandable-header-logo/node_modules/famous/core/Clock.js","./Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js","./Dispatch":"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Scene":"/Users/user/expandable-header-logo/node_modules/famous/core/Scene.js","./SizeSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./TransformSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Node.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -3095,7 +3095,7 @@ Node.prototype.dismount = function dismount () {
 
 module.exports = Node;
 
-},{"./Dispatch":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Size":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Size.js","./SizeSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./Transform":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Transform.js","./TransformSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js":[function(require,module,exports){
+},{"./Dispatch":"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Size":"/Users/user/expandable-header-logo/node_modules/famous/core/Size.js","./SizeSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./Transform":"/Users/user/expandable-header-logo/node_modules/famous/core/Transform.js","./TransformSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -3269,7 +3269,7 @@ var Path = {
 
 module.exports = Path;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/PathStore.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/PathStore.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -3438,7 +3438,7 @@ PathStore.prototype.getPaths = function getPaths () {
 
 module.exports = PathStore;
 
-},{"./Path":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Scene.js":[function(require,module,exports){
+},{"./Path":"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Scene.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -3593,7 +3593,7 @@ Scene.prototype.mount = function mount (path) {
 
 module.exports = Scene;
 
-},{"./Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js","./Dispatch":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Node":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Node.js","./SizeSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./TransformSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Size.js":[function(require,module,exports){
+},{"./Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js","./Dispatch":"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Node":"/Users/user/expandable-header-logo/node_modules/famous/core/Node.js","./SizeSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/SizeSystem.js","./TransformSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/TransformSystem.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Size.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -3927,7 +3927,7 @@ Size.prototype.fromComponents = function fromComponents (components) {
 module.exports = Size;
 
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/SizeSystem.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/SizeSystem.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  * 
@@ -4200,7 +4200,7 @@ function sizeChanged (node, components, size) {
 
 module.exports = new SizeSystem();
 
-},{"./Dispatch":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Path":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js","./PathStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/PathStore.js","./Size":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Size.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Transform.js":[function(require,module,exports){
+},{"./Dispatch":"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Path":"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js","./PathStore":"/Users/user/expandable-header-logo/node_modules/famous/core/PathStore.js","./Size":"/Users/user/expandable-header-logo/node_modules/famous/core/Size.js"}],"/Users/user/expandable-header-logo/node_modules/famous/core/Transform.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -4987,7 +4987,7 @@ function multiply (out, a, b) {
 
 module.exports = Transform;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/TransformSystem.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/core/TransformSystem.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  * 
@@ -5364,7 +5364,7 @@ function worldTransformChanged (node, components, transform) {
 
 module.exports = new TransformSystem();
 
-},{"./Dispatch":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Path":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js","./PathStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/PathStore.js","./Transform":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Transform.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderables/DOMElement.js":[function(require,module,exports){
+},{"./Dispatch":"/Users/user/expandable-header-logo/node_modules/famous/core/Dispatch.js","./Path":"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js","./PathStore":"/Users/user/expandable-header-logo/node_modules/famous/core/PathStore.js","./Transform":"/Users/user/expandable-header-logo/node_modules/famous/core/Transform.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderables/DOMElement.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -6057,7 +6057,7 @@ DOMElement.prototype.draw = function draw() {
 
 module.exports = DOMElement;
 
-},{"../core/Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js","../core/Size":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Size.js","../core/TransformSystem":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/TransformSystem.js","../utilities/CallbackStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/DOMRenderer.js":[function(require,module,exports){
+},{"../core/Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js","../core/Size":"/Users/user/expandable-header-logo/node_modules/famous/core/Size.js","../core/TransformSystem":"/Users/user/expandable-header-logo/node_modules/famous/core/TransformSystem.js","../utilities/CallbackStore":"/Users/user/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/DOMRenderer.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -6836,7 +6836,7 @@ DOMRenderer.prototype.offRemoveEl = function offRemoveEl(path, callback) {
 
 module.exports = DOMRenderer;
 
-},{"../core/Path":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Path.js","../utilities/CallbackStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js","../utilities/vendorPrefix":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/vendorPrefix.js","./ElementCache":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/ElementCache.js","./Math":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/Math.js","./events/EventMap":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/EventMap.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/ElementCache.js":[function(require,module,exports){
+},{"../core/Path":"/Users/user/expandable-header-logo/node_modules/famous/core/Path.js","../utilities/CallbackStore":"/Users/user/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js","../utilities/vendorPrefix":"/Users/user/expandable-header-logo/node_modules/famous/utilities/vendorPrefix.js","./ElementCache":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/ElementCache.js","./Math":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/Math.js","./events/EventMap":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/EventMap.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/ElementCache.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -6901,7 +6901,7 @@ function ElementCache (element, path) {
 
 module.exports = ElementCache;
 
-},{"./VoidElements":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/VoidElements.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/Math.js":[function(require,module,exports){
+},{"./VoidElements":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/VoidElements.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/Math.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7087,7 +7087,7 @@ module.exports = {
     invert: invert
 };
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/VoidElements.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/VoidElements.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7140,7 +7140,7 @@ var VoidElements = {
 
 module.exports = VoidElements;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/CompositionEvent.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/CompositionEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7208,7 +7208,7 @@ CompositionEvent.prototype.toString = function toString () {
 
 module.exports = CompositionEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7328,7 +7328,7 @@ Event.prototype.toString = function toString () {
 
 module.exports = Event;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/EventMap.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/EventMap.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7420,7 +7420,7 @@ var EventMap = {
 
 module.exports = EventMap;
 
-},{"./CompositionEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/CompositionEvent.js","./Event":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js","./FocusEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/FocusEvent.js","./InputEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/InputEvent.js","./KeyboardEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/KeyboardEvent.js","./MouseEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js","./TouchEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/TouchEvent.js","./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js","./WheelEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/WheelEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/FocusEvent.js":[function(require,module,exports){
+},{"./CompositionEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/CompositionEvent.js","./Event":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js","./FocusEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/FocusEvent.js","./InputEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/InputEvent.js","./KeyboardEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/KeyboardEvent.js","./MouseEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js","./TouchEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/TouchEvent.js","./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js","./WheelEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/WheelEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/FocusEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7482,7 +7482,7 @@ FocusEvent.prototype.toString = function toString () {
 
 module.exports = FocusEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/InputEvent.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/InputEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7573,7 +7573,7 @@ InputEvent.prototype.toString = function toString () {
 
 module.exports = InputEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/KeyboardEvent.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/KeyboardEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7734,7 +7734,7 @@ KeyboardEvent.prototype.toString = function toString () {
 
 module.exports = KeyboardEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -7904,7 +7904,7 @@ MouseEvent.prototype.toString = function toString () {
 
 module.exports = MouseEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/TouchEvent.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/TouchEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -8102,7 +8102,7 @@ TouchEvent.prototype.toString = function toString () {
 
 module.exports = TouchEvent;
 
-},{"./UIEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js":[function(require,module,exports){
+},{"./UIEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/UIEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -8170,7 +8170,7 @@ UIEvent.prototype.toString = function toString () {
 
 module.exports = UIEvent;
 
-},{"./Event":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/WheelEvent.js":[function(require,module,exports){
+},{"./Event":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/Event.js"}],"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/WheelEvent.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -8281,7 +8281,7 @@ WheelEvent.prototype.toString = function toString () {
 
 module.exports = WheelEvent;
 
-},{"./MouseEvent":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js":[function(require,module,exports){
+},{"./MouseEvent":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/events/MouseEvent.js"}],"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  * 
@@ -8773,7 +8773,7 @@ Mat33.multiply = function multiply(matrix1, matrix2, output) {
 
 module.exports = Mat33;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -9323,7 +9323,7 @@ Quaternion.dot = function dot(q1, q2) {
 
 module.exports = Quaternion;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -9931,7 +9931,7 @@ Vec3.project = function project(v1, v2, output) {
 
 module.exports = Vec3;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/Geometry.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/physics/Geometry.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -10732,7 +10732,7 @@ module.exports = {
     ConvexHull: ConvexHull
 };
 
-},{"../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../utilities/ObjectManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/PhysicsEngine.js":[function(require,module,exports){
+},{"../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../utilities/ObjectManager":"/Users/user/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/PhysicsEngine.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -11232,7 +11232,7 @@ function _integratePose(body, dt) {
 
 module.exports = PhysicsEngine;
 
-},{"../math/Quaternion":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js","../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../utilities/CallbackStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js","./bodies/Particle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js","./constraints/Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./forces/Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Box.js":[function(require,module,exports){
+},{"../math/Quaternion":"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js","../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../utilities/CallbackStore":"/Users/user/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js","./bodies/Particle":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js","./constraints/Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./forces/Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Box.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -11298,7 +11298,7 @@ Box.prototype.constructor = Box;
 
 module.exports = Box;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./convexBodyFactory":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./convexBodyFactory":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -11802,7 +11802,7 @@ Particle.prototype.updateShape = function updateShape() {};
 
 module.exports = Particle;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../../utilities/CallbackStore":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Sphere.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../../utilities/CallbackStore":"/Users/user/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Sphere.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -11924,7 +11924,7 @@ Sphere.prototype.support = function support(direction) {
  */
 module.exports = Sphere;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Particle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Wall.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Particle":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Wall.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -12013,7 +12013,7 @@ Wall.prototype.constructor = Wall;
 
 module.exports = Wall;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Particle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Particle":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -12268,7 +12268,7 @@ function _computeInertiaProperties(T) {
 
 module.exports = convexBodyFactory;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../Geometry":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/Geometry.js","./Particle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Angle.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../Geometry":"/Users/user/expandable-header-logo/node_modules/famous/physics/Geometry.js","./Particle":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Angle.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -12392,7 +12392,7 @@ Angle.prototype.resolve = function update() {
 
 module.exports = Angle;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/BallAndSocket.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/BallAndSocket.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -12563,7 +12563,7 @@ BallAndSocket.prototype.resolve = function resolve() {
 
 module.exports = BallAndSocket;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Collision.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Collision.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -12973,7 +12973,7 @@ Collision.BruteForceAABB = BruteForce.BruteForceAABB;
 
 module.exports = Collision;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../../utilities/ObjectManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./collision/BruteForce":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/BruteForce.js","./collision/ContactManifold":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/ContactManifold.js","./collision/ConvexCollisionDetection":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/ConvexCollisionDetection.js","./collision/SweepAndPrune":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/SweepAndPrune.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../../utilities/ObjectManager":"/Users/user/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./collision/BruteForce":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/BruteForce.js","./collision/ContactManifold":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/ContactManifold.js","./collision/ConvexCollisionDetection":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/ConvexCollisionDetection.js","./collision/SweepAndPrune":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/SweepAndPrune.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -13059,7 +13059,7 @@ Constraint.prototype.resolve = function resolve(time, dt) {};
 
 module.exports = Constraint;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Curve.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Curve.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -13260,7 +13260,7 @@ Curve.prototype.resolve = function resolve() {
 
 module.exports = Curve;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Direction.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Direction.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -13440,7 +13440,7 @@ Direction.prototype.resolve = function update() {
 
 module.exports = Direction;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Distance.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Distance.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -13617,7 +13617,7 @@ Distance.prototype.resolve = function resolve() {
 
 module.exports = Distance;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Hinge.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Hinge.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -13869,7 +13869,7 @@ Hinge.prototype.resolve = function resolve() {
 
 module.exports = Hinge;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -14041,7 +14041,7 @@ AABB.vertexThreshold = 100;
 
 module.exports = AABB;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/BruteForce.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/BruteForce.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -14159,7 +14159,7 @@ BruteForce.prototype.update = function update() {
 module.exports.BruteForceAABB = BruteForceAABB;
 module.exports.BruteForce = BruteForce;
 
-},{"./AABB":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/ContactManifold.js":[function(require,module,exports){
+},{"./AABB":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/ContactManifold.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -14758,7 +14758,7 @@ Contact.prototype.resolve = function resolve() {
 
 module.exports = ContactManifoldTable;
 
-},{"../../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../../../utilities/ObjectManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/ConvexCollisionDetection.js":[function(require,module,exports){
+},{"../../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../../../utilities/ObjectManager":"/Users/user/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/ConvexCollisionDetection.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -14984,7 +14984,7 @@ function epa(body1, body2, polytope) {
 module.exports.gjk = gjk;
 module.exports.epa = epa;
 
-},{"../../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","../../../utilities/ObjectManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/SweepAndPrune.js":[function(require,module,exports){
+},{"../../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","../../../utilities/ObjectManager":"/Users/user/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/SweepAndPrune.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15228,7 +15228,7 @@ SweepVolume.prototype.update = function() {
 
 module.exports = SweepAndPrune;
 
-},{"./AABB":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Drag.js":[function(require,module,exports){
+},{"./AABB":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/collision/AABB.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Drag.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15337,7 +15337,7 @@ Drag.prototype.update = function update() {
 
 module.exports = Drag;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15443,7 +15443,7 @@ Force.prototype.update = function update(time, dt) {};
 
 module.exports = Force;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Gravity1D.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Gravity1D.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15566,7 +15566,7 @@ Gravity1D.prototype.update = function() {
 
 module.exports = Gravity1D;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Gravity3D.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Gravity3D.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15662,7 +15662,7 @@ Gravity3D.prototype.update = function() {
 
 module.exports = Gravity3D;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/RotationalDrag.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/RotationalDrag.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15767,7 +15767,7 @@ RotationalDrag.prototype.update = function update() {
 
 module.exports = RotationalDrag;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/RotationalSpring.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/RotationalSpring.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -15911,7 +15911,7 @@ RotationalSpring.prototype.update = function update() {
 
 module.exports = RotationalSpring;
 
-},{"../../math/Mat33":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Spring.js":[function(require,module,exports){
+},{"../../math/Mat33":"/Users/user/expandable-header-logo/node_modules/famous/math/Mat33.js","../../math/Quaternion":"/Users/user/expandable-header-logo/node_modules/famous/math/Quaternion.js","../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Spring.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -16077,7 +16077,7 @@ Spring.prototype.update = function() {
 
 module.exports = Spring;
 
-},{"../../math/Vec3":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/index.js":[function(require,module,exports){
+},{"../../math/Vec3":"/Users/user/expandable-header-logo/node_modules/famous/math/Vec3.js","./Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js"}],"/Users/user/expandable-header-logo/node_modules/famous/physics/index.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -16132,7 +16132,7 @@ module.exports = {
     Geometry: require('./Geometry')
 };
 
-},{"./Geometry":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/Geometry.js","./PhysicsEngine":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/PhysicsEngine.js","./bodies/Box":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Box.js","./bodies/Particle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js","./bodies/Sphere":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Sphere.js","./bodies/Wall":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Wall.js","./bodies/convexBodyFactory":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js","./constraints/Angle":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Angle.js","./constraints/BallAndSocket":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/BallAndSocket.js","./constraints/Collision":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Collision.js","./constraints/Constraint":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./constraints/Curve":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Curve.js","./constraints/Direction":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Direction.js","./constraints/Distance":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Distance.js","./constraints/Hinge":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/constraints/Hinge.js","./forces/Drag":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Drag.js","./forces/Force":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Force.js","./forces/Gravity1D":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Gravity1D.js","./forces/Gravity3D":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Gravity3D.js","./forces/RotationalDrag":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/RotationalDrag.js","./forces/RotationalSpring":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/RotationalSpring.js","./forces/Spring":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/forces/Spring.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/polyfills/animationFrame.js":[function(require,module,exports){
+},{"./Geometry":"/Users/user/expandable-header-logo/node_modules/famous/physics/Geometry.js","./PhysicsEngine":"/Users/user/expandable-header-logo/node_modules/famous/physics/PhysicsEngine.js","./bodies/Box":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Box.js","./bodies/Particle":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Particle.js","./bodies/Sphere":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Sphere.js","./bodies/Wall":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Wall.js","./bodies/convexBodyFactory":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/convexBodyFactory.js","./constraints/Angle":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Angle.js","./constraints/BallAndSocket":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/BallAndSocket.js","./constraints/Collision":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Collision.js","./constraints/Constraint":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Constraint.js","./constraints/Curve":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Curve.js","./constraints/Direction":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Direction.js","./constraints/Distance":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Distance.js","./constraints/Hinge":"/Users/user/expandable-header-logo/node_modules/famous/physics/constraints/Hinge.js","./forces/Drag":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Drag.js","./forces/Force":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Force.js","./forces/Gravity1D":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Gravity1D.js","./forces/Gravity3D":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Gravity3D.js","./forces/RotationalDrag":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/RotationalDrag.js","./forces/RotationalSpring":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/RotationalSpring.js","./forces/Spring":"/Users/user/expandable-header-logo/node_modules/famous/physics/forces/Spring.js"}],"/Users/user/expandable-header-logo/node_modules/famous/polyfills/animationFrame.js":[function(require,module,exports){
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 // requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
@@ -16217,7 +16217,7 @@ var animationFrame = {
 
 module.exports = animationFrame;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/polyfills/index.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/polyfills/index.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  * 
@@ -16249,7 +16249,7 @@ module.exports = {
     cancelAnimationFrame: require('./animationFrame').cancelAnimationFrame
 };
 
-},{"./animationFrame":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/polyfills/animationFrame.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/render-loops/RequestAnimationFrameLoop.js":[function(require,module,exports){
+},{"./animationFrame":"/Users/user/expandable-header-logo/node_modules/famous/polyfills/animationFrame.js"}],"/Users/user/expandable-header-logo/node_modules/famous/render-loops/RequestAnimationFrameLoop.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -16561,7 +16561,7 @@ RequestAnimationFrameLoop.prototype.noLongerUpdate = function noLongerUpdate(upd
 
 module.exports = RequestAnimationFrameLoop;
 
-},{"../polyfills":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/polyfills/index.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/Compositor.js":[function(require,module,exports){
+},{"../polyfills":"/Users/user/expandable-header-logo/node_modules/famous/polyfills/index.js"}],"/Users/user/expandable-header-logo/node_modules/famous/renderers/Compositor.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -16855,7 +16855,7 @@ Compositor.prototype.clearCommands = function clearCommands() {
 
 module.exports = Compositor;
 
-},{"../core/Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js","./Context":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/Context.js","./inject-css":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/inject-css.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/Context.js":[function(require,module,exports){
+},{"../core/Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js","./Context":"/Users/user/expandable-header-logo/node_modules/famous/renderers/Context.js","./inject-css":"/Users/user/expandable-header-logo/node_modules/famous/renderers/inject-css.js"}],"/Users/user/expandable-header-logo/node_modules/famous/renderers/Context.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -17400,7 +17400,7 @@ function changeViewTransform (context, path, commands, iterator) {
 
 module.exports = Context;
 
-},{"../components/Camera":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/components/Camera.js","../core/Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js","../dom-renderers/DOMRenderer":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderers/DOMRenderer.js","../webgl-renderers/WebGLRenderer":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/WebGLRenderer.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/UIManager.js":[function(require,module,exports){
+},{"../components/Camera":"/Users/user/expandable-header-logo/node_modules/famous/components/Camera.js","../core/Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js","../dom-renderers/DOMRenderer":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderers/DOMRenderer.js","../webgl-renderers/WebGLRenderer":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/WebGLRenderer.js"}],"/Users/user/expandable-header-logo/node_modules/famous/renderers/UIManager.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -17559,7 +17559,7 @@ UIManager.prototype.update = function update (time) {
 
 module.exports = UIManager;
 
-},{"../core/Commands":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Commands.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/renderers/inject-css.js":[function(require,module,exports){
+},{"../core/Commands":"/Users/user/expandable-header-logo/node_modules/famous/core/Commands.js"}],"/Users/user/expandable-header-logo/node_modules/famous/renderers/inject-css.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -17650,7 +17650,7 @@ function injectCSS() {
 
 module.exports = injectCSS;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/transitions/Curves.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/transitions/Curves.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -17906,7 +17906,7 @@ var Curves = {
 
 module.exports = Curves;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/transitions/Transitionable.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/transitions/Transitionable.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18364,7 +18364,7 @@ Transitionable.prototype.set = function(state, transition, callback) {
 
 module.exports = Transitionable;
 
-},{"../core/FamousEngine":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/FamousEngine.js","./Curves":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/transitions/Curves.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js":[function(require,module,exports){
+},{"../core/FamousEngine":"/Users/user/expandable-header-logo/node_modules/famous/core/FamousEngine.js","./Curves":"/Users/user/expandable-header-logo/node_modules/famous/transitions/Curves.js"}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/CallbackStore.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18462,7 +18462,7 @@ CallbackStore.prototype.trigger = function trigger (key, payload) {
 
 module.exports = CallbackStore;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/ObjectManager.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18555,7 +18555,7 @@ ObjectManager.disposeOf = function(type) {
 
 module.exports = ObjectManager;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/Registry.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/Registry.js":[function(require,module,exports){
 'use strict';
 
 function Registry () {
@@ -18614,7 +18614,7 @@ Registry.prototype.getKeyToValue = function getKeyToValue () {
 
 module.exports = Registry;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/clone.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/clone.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18678,7 +18678,7 @@ var clone = function clone(b) {
 
 module.exports = clone;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18735,7 +18735,7 @@ module.exports = function keyValuesToArrays(obj) {
     };
 };
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/vendorPrefix.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/utilities/vendorPrefix.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18795,7 +18795,7 @@ function vendorPrefix(property) {
 
 module.exports = vendorPrefix;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Buffer.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Buffer.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -18867,7 +18867,7 @@ Buffer.prototype.subData = function subData() {
 
 module.exports = Buffer;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/BufferRegistry.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/BufferRegistry.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -19014,7 +19014,7 @@ BufferRegistry.prototype.allocate = function allocate(geometryId, name, value, s
 
 module.exports = BufferRegistry;
 
-},{"./Buffer":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Buffer.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Debug.js":[function(require,module,exports){
+},{"./Buffer":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Buffer.js"}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Debug.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -19111,7 +19111,7 @@ function _processErrors(errors, source) {
 
 module.exports = Debug;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Program.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Program.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -19594,7 +19594,7 @@ Program.prototype.compileShader = function compileShader(shader, source) {
 
 module.exports = Program;
 
-},{"../utilities/clone":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/clone.js","../utilities/keyValueToArrays":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js","../webgl-shaders":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-shaders/index.js","./Debug":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Debug.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Texture.js":[function(require,module,exports){
+},{"../utilities/clone":"/Users/user/expandable-header-logo/node_modules/famous/utilities/clone.js","../utilities/keyValueToArrays":"/Users/user/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js","../webgl-shaders":"/Users/user/expandable-header-logo/node_modules/famous/webgl-shaders/index.js","./Debug":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Debug.js"}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Texture.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -19735,7 +19735,7 @@ Texture.prototype.readBack = function readBack(x, y, width, height) {
 
 module.exports = Texture;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/TextureManager.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/TextureManager.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -19947,7 +19947,7 @@ TextureManager.prototype.bindTexture = function bindTexture(id) {
 
 module.exports = TextureManager;
 
-},{"./Texture":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Texture.js","./createCheckerboard":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/createCheckerboard.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/WebGLRenderer.js":[function(require,module,exports){
+},{"./Texture":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Texture.js","./createCheckerboard":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/createCheckerboard.js"}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/WebGLRenderer.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -20803,7 +20803,7 @@ WebGLRenderer.prototype.resetOptions = function resetOptions(options) {
 
 module.exports = WebGLRenderer;
 
-},{"../utilities/Registry":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/Registry.js","../utilities/keyValueToArrays":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js","./BufferRegistry":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/BufferRegistry.js","./Program":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/Program.js","./TextureManager":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/TextureManager.js","./compileMaterial":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/compileMaterial.js","./radixSort":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/radixSort.js"}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/compileMaterial.js":[function(require,module,exports){
+},{"../utilities/Registry":"/Users/user/expandable-header-logo/node_modules/famous/utilities/Registry.js","../utilities/keyValueToArrays":"/Users/user/expandable-header-logo/node_modules/famous/utilities/keyValueToArrays.js","./BufferRegistry":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/BufferRegistry.js","./Program":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/Program.js","./TextureManager":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/TextureManager.js","./compileMaterial":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/compileMaterial.js","./radixSort":"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/radixSort.js"}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/compileMaterial.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -20936,7 +20936,7 @@ function _arrayToVec(array) {
 
 module.exports = compileMaterial;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/createCheckerboard.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/createCheckerboard.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -20987,7 +20987,7 @@ function createCheckerBoard() {
 
 module.exports = createCheckerBoard;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-renderers/radixSort.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-renderers/radixSort.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -21124,7 +21124,7 @@ function radixSort(list, registry) {
 
 module.exports = radixSort;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/webgl-shaders/index.js":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/node_modules/famous/webgl-shaders/index.js":[function(require,module,exports){
 /**
  * The MIT License (MIT)
  *
@@ -21155,12 +21155,12 @@ module.exports = radixSort;
 
 var shaders = {
     vertex: "#define GLSLIFY 1\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Calculates transpose inverse matrix from transform\n * \n * @method random\n * @private\n *\n *\n */\n\n\nmat3 getNormalMatrix_1_0(in mat4 t) {\n   mat3 matNorm;\n   mat4 a = t;\n\n   float a00 = a[0][0], a01 = a[0][1], a02 = a[0][2], a03 = a[0][3],\n   a10 = a[1][0], a11 = a[1][1], a12 = a[1][2], a13 = a[1][3],\n   a20 = a[2][0], a21 = a[2][1], a22 = a[2][2], a23 = a[2][3],\n   a30 = a[3][0], a31 = a[3][1], a32 = a[3][2], a33 = a[3][3],\n   b00 = a00 * a11 - a01 * a10,\n   b01 = a00 * a12 - a02 * a10,\n   b02 = a00 * a13 - a03 * a10,\n   b03 = a01 * a12 - a02 * a11,\n   b04 = a01 * a13 - a03 * a11,\n   b05 = a02 * a13 - a03 * a12,\n   b06 = a20 * a31 - a21 * a30,\n   b07 = a20 * a32 - a22 * a30,\n   b08 = a20 * a33 - a23 * a30,\n   b09 = a21 * a32 - a22 * a31,\n   b10 = a21 * a33 - a23 * a31,\n   b11 = a22 * a33 - a23 * a32,\n\n   det = b00 * b11 - b01 * b10 + b02 * b09 + b03 * b08 - b04 * b07 + b05 * b06;\n   det = 1.0 / det;\n\n   matNorm[0][0] = (a11 * b11 - a12 * b10 + a13 * b09) * det;\n   matNorm[0][1] = (a12 * b08 - a10 * b11 - a13 * b07) * det;\n   matNorm[0][2] = (a10 * b10 - a11 * b08 + a13 * b06) * det;\n\n   matNorm[1][0] = (a02 * b10 - a01 * b11 - a03 * b09) * det;\n   matNorm[1][1] = (a00 * b11 - a02 * b08 + a03 * b07) * det;\n   matNorm[1][2] = (a01 * b08 - a00 * b10 - a03 * b06) * det;\n\n   matNorm[2][0] = (a31 * b05 - a32 * b04 + a33 * b03) * det;\n   matNorm[2][1] = (a32 * b02 - a30 * b05 - a33 * b01) * det;\n   matNorm[2][2] = (a30 * b04 - a31 * b02 + a33 * b00) * det;\n\n   return matNorm;\n}\n\n\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Calculates a matrix that creates the identity when multiplied by m\n * \n * @method inverse\n * @private\n *\n *\n */\n\n\nfloat inverse_2_1(float m) {\n    return 1.0 / m;\n}\n\nmat2 inverse_2_1(mat2 m) {\n    return mat2(m[1][1],-m[0][1],\n               -m[1][0], m[0][0]) / (m[0][0]*m[1][1] - m[0][1]*m[1][0]);\n}\n\nmat3 inverse_2_1(mat3 m) {\n    float a00 = m[0][0], a01 = m[0][1], a02 = m[0][2];\n    float a10 = m[1][0], a11 = m[1][1], a12 = m[1][2];\n    float a20 = m[2][0], a21 = m[2][1], a22 = m[2][2];\n\n    float b01 =  a22 * a11 - a12 * a21;\n    float b11 = -a22 * a10 + a12 * a20;\n    float b21 =  a21 * a10 - a11 * a20;\n\n    float det = a00 * b01 + a01 * b11 + a02 * b21;\n\n    return mat3(b01, (-a22 * a01 + a02 * a21), (a12 * a01 - a02 * a11),\n                b11, (a22 * a00 - a02 * a20), (-a12 * a00 + a02 * a10),\n                b21, (-a21 * a00 + a01 * a20), (a11 * a00 - a01 * a10)) / det;\n}\n\nmat4 inverse_2_1(mat4 m) {\n    float\n        a00 = m[0][0], a01 = m[0][1], a02 = m[0][2], a03 = m[0][3],\n        a10 = m[1][0], a11 = m[1][1], a12 = m[1][2], a13 = m[1][3],\n        a20 = m[2][0], a21 = m[2][1], a22 = m[2][2], a23 = m[2][3],\n        a30 = m[3][0], a31 = m[3][1], a32 = m[3][2], a33 = m[3][3],\n\n        b00 = a00 * a11 - a01 * a10,\n        b01 = a00 * a12 - a02 * a10,\n        b02 = a00 * a13 - a03 * a10,\n        b03 = a01 * a12 - a02 * a11,\n        b04 = a01 * a13 - a03 * a11,\n        b05 = a02 * a13 - a03 * a12,\n        b06 = a20 * a31 - a21 * a30,\n        b07 = a20 * a32 - a22 * a30,\n        b08 = a20 * a33 - a23 * a30,\n        b09 = a21 * a32 - a22 * a31,\n        b10 = a21 * a33 - a23 * a31,\n        b11 = a22 * a33 - a23 * a32,\n\n        det = b00 * b11 - b01 * b10 + b02 * b09 + b03 * b08 - b04 * b07 + b05 * b06;\n\n    return mat4(\n        a11 * b11 - a12 * b10 + a13 * b09,\n        a02 * b10 - a01 * b11 - a03 * b09,\n        a31 * b05 - a32 * b04 + a33 * b03,\n        a22 * b04 - a21 * b05 - a23 * b03,\n        a12 * b08 - a10 * b11 - a13 * b07,\n        a00 * b11 - a02 * b08 + a03 * b07,\n        a32 * b02 - a30 * b05 - a33 * b01,\n        a20 * b05 - a22 * b02 + a23 * b01,\n        a10 * b10 - a11 * b08 + a13 * b06,\n        a01 * b08 - a00 * b10 - a03 * b06,\n        a30 * b04 - a31 * b02 + a33 * b00,\n        a21 * b02 - a20 * b04 - a23 * b00,\n        a11 * b07 - a10 * b09 - a12 * b06,\n        a00 * b09 - a01 * b07 + a02 * b06,\n        a31 * b01 - a30 * b03 - a32 * b00,\n        a20 * b03 - a21 * b01 + a22 * b00) / det;\n}\n\n\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Reflects a matrix over its main diagonal.\n * \n * @method transpose\n * @private\n *\n *\n */\n\n\nfloat transpose_3_2(float m) {\n    return m;\n}\n\nmat2 transpose_3_2(mat2 m) {\n    return mat2(m[0][0], m[1][0],\n                m[0][1], m[1][1]);\n}\n\nmat3 transpose_3_2(mat3 m) {\n    return mat3(m[0][0], m[1][0], m[2][0],\n                m[0][1], m[1][1], m[2][1],\n                m[0][2], m[1][2], m[2][2]);\n}\n\nmat4 transpose_3_2(mat4 m) {\n    return mat4(m[0][0], m[1][0], m[2][0], m[3][0],\n                m[0][1], m[1][1], m[2][1], m[3][1],\n                m[0][2], m[1][2], m[2][2], m[3][2],\n                m[0][3], m[1][3], m[2][3], m[3][3]);\n}\n\n\n\n\n/**\n * Converts vertex from modelspace to screenspace using transform\n * information from context.\n *\n * @method applyTransform\n * @private\n *\n *\n */\n\nvec4 applyTransform(vec4 pos) {\n    //TODO: move this multiplication to application code. \n\n    /**\n     * Currently multiplied in the vertex shader to avoid consuming the complexity of holding an additional\n     * transform as state on the mesh object in WebGLRenderer. Multiplies the object's transformation from object space\n     * to world space with its transformation from world space to eye space.\n     */\n    mat4 MVMatrix = u_view * u_transform;\n\n    //TODO: move the origin, sizeScale and y axis inversion to application code in order to amortize redundant per-vertex calculations.\n\n    /**\n     * The transform uniform should be changed to the result of the transformation chain:\n     *\n     * view * modelTransform * invertYAxis * sizeScale * origin\n     *\n     * which could be simplified to:\n     *\n     * view * modelTransform * convertToDOMSpace\n     *\n     * where convertToDOMSpace represents the transform matrix:\n     *\n     *                           size.x 0       0       size.x \n     *                           0      -size.y 0       size.y\n     *                           0      0       1       0\n     *                           0      0       0       1\n     *\n     */\n\n    /**\n     * Assuming a unit volume, moves the object space origin [0, 0, 0] to the \"top left\" [1, -1, 0], the DOM space origin.\n     * Later in the transformation chain, the projection transform negates the rigidbody translation.\n     * Equivalent to (but much faster than) multiplying a translation matrix \"origin\"\n     *\n     *                           1 0 0 1 \n     *                           0 1 0 -1\n     *                           0 0 1 0\n     *                           0 0 0 1\n     *\n     * in the transform chain: projection * view * modelTransform * invertYAxis * sizeScale * origin * positionVector.\n     */\n    pos.x += 1.0;\n    pos.y -= 1.0;\n\n    /**\n     * Assuming a unit volume, scales an object to the amount of pixels in the size uniform vector's specified dimensions.\n     * Later in the transformation chain, the projection transform transforms the point into clip space by scaling\n     * by the inverse of the canvas' resolution.\n     * Equivalent to (but much faster than) multiplying a scale matrix \"sizeScale\"\n     *\n     *                           size.x 0      0      0 \n     *                           0      size.y 0      0\n     *                           0      0      size.z 0\n     *                           0      0      0      1\n     *\n     * in the transform chain: projection * view * modelTransform * invertYAxis * sizeScale * origin * positionVector.\n     */\n    pos.xyz *= u_size * 0.5;\n\n    /**\n     * Inverts the object space's y axis in order to match DOM space conventions. \n     * Later in the transformation chain, the projection transform reinverts the y axis to convert to clip space.\n     * Equivalent to (but much faster than) multiplying a scale matrix \"invertYAxis\"\n     *\n     *                           1 0 0 0 \n     *                           0 -1 0 0\n     *                           0 0 1 0\n     *                           0 0 0 1\n     *\n     * in the transform chain: projection * view * modelTransform * invertYAxis * sizeScale * origin * positionVector.\n     */\n    pos.y *= -1.0;\n\n    /**\n     * Exporting the vertex's position as a varying, in DOM space, to be used for lighting calculations. This has to be in DOM space\n     * since light position and direction is derived from the scene graph, calculated in DOM space.\n     */\n\n    v_position = (MVMatrix * pos).xyz;\n\n    /**\n    * Exporting the eye vector (a vector from the center of the screen) as a varying, to be used for lighting calculations.\n    * In clip space deriving the eye vector is a matter of simply taking the inverse of the position, as the position is a vector\n    * from the center of the screen. However, since our points are represented in DOM space,\n    * the position is a vector from the top left corner of the screen, so some additional math is needed (specifically, subtracting\n    * the position from the center of the screen, i.e. half the resolution of the canvas).\n    */\n\n    v_eyeVector = (u_resolution * 0.5) - v_position;\n\n    /**\n     * Transforming the position (currently represented in dom space) into view space (with our dom space view transform)\n     * and then projecting the point into raster both by applying a perspective transformation and converting to clip space\n     * (the perspective matrix is a combination of both transformations, therefore it's probably more apt to refer to it as a\n     * projection transform).\n     */\n\n    pos = u_perspective * MVMatrix * pos;\n\n    return pos;\n}\n\n/**\n * Placeholder for positionOffset chunks to be templated in.\n * Used for mesh deformation.\n *\n * @method calculateOffset\n * @private\n *\n *\n */\n#vert_definitions\nvec3 calculateOffset(vec3 ID) {\n    #vert_applications\n    return vec3(0.0);\n}\n\n/**\n * Writes the position of the vertex onto the screen.\n * Passes texture coordinate and normal attributes as varyings\n * and passes the position attribute through position pipeline.\n *\n * @method main\n * @private\n *\n *\n */\nvoid main() {\n    v_textureCoordinate = a_texCoord;\n    vec3 invertedNormals = a_normals + (u_normals.x < 0.0 ? calculateOffset(u_normals) * 2.0 - 1.0 : vec3(0.0));\n    invertedNormals.y *= -1.0;\n    v_normal = transpose_3_2(mat3(inverse_2_1(u_transform))) * invertedNormals;\n    vec3 offsetPos = a_pos + calculateOffset(u_positionOffset);\n    gl_Position = applyTransform(vec4(offsetPos, 1.0));\n}\n",
-    fragment: "#define GLSLIFY 1\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Placeholder for fragmentShader  chunks to be templated in.\n * Used for normal mapping, gloss mapping and colors.\n * \n * @method applyMaterial\n * @private\n *\n *\n */\n\n#float_definitions\nfloat applyMaterial_2_0(float ID) {\n    #float_applications\n    return 1.;\n}\n\n#vec3_definitions\nvec3 applyMaterial_2_0(vec3 ID) {\n    #vec3_applications\n    return vec3(0);\n}\n\n#vec4_definitions\nvec4 applyMaterial_2_0(vec4 ID) {\n    #vec4_applications\n\n    return vec4(0);\n}\n\n\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Calculates the intensity of light on a surface.\n *\n * @method applyLight\n * @private\n *\n */\nvec4 applyLight_1_1(in vec4 baseColor, in vec3 normal, in vec4 glossiness, int numLights, vec3 ambientColor, vec3 eyeVector, mat4 lightPosition, mat4 lightColor, vec3 v_position) {\n    vec3 diffuse = vec3(0.0);\n    bool hasGlossiness = glossiness.a > 0.0;\n    bool hasSpecularColor = length(glossiness.rgb) > 0.0;\n\n    for(int i = 0; i < 4; i++) {\n        if (i >= numLights) break;\n        vec3 lightDirection = normalize(lightPosition[i].xyz - v_position);\n        float lambertian = max(dot(lightDirection, normal), 0.0);\n\n        if (lambertian > 0.0) {\n            diffuse += lightColor[i].rgb * baseColor.rgb * lambertian;\n            if (hasGlossiness) {\n                vec3 halfVector = normalize(lightDirection + eyeVector);\n                float specularWeight = pow(max(dot(halfVector, normal), 0.0), glossiness.a);\n                vec3 specularColor = hasSpecularColor ? glossiness.rgb : lightColor[i].rgb;\n                diffuse += specularColor * specularWeight * lambertian;\n            }\n        }\n\n    }\n\n    return vec4(ambientColor + diffuse, baseColor.a);\n}\n\n\n\n\n\n/**\n * Writes the color of the pixel onto the screen\n *\n * @method main\n * @private\n *\n *\n */\nvoid main() {\n    vec4 material = u_baseColor.r >= 0.0 ? u_baseColor : applyMaterial_2_0(u_baseColor);\n\n    /**\n     * Apply lights only if flat shading is false\n     * and at least one light is added to the scene\n     */\n    bool lightsEnabled = (u_flatShading == 0.0) && (u_numLights > 0.0 || length(u_ambientLight) > 0.0);\n\n    vec3 normal = normalize(v_normal);\n    vec4 glossiness = u_glossiness.x < 0.0 ? applyMaterial_2_0(u_glossiness) : u_glossiness;\n\n    vec4 color = lightsEnabled ?\n    applyLight_1_1(material, normalize(v_normal), glossiness,\n               int(u_numLights),\n               u_ambientLight * u_baseColor.rgb,\n               normalize(v_eyeVector),\n               u_lightPosition,\n               u_lightColor,   \n               v_position)\n    : material;\n\n    gl_FragColor = color;\n    gl_FragColor.a *= u_opacity;   \n}\n"
+    fragment: "#define GLSLIFY 1\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Placeholder for fragmentShader  chunks to be templated in.\n * Used for normal mapping, gloss mapping and colors.\n * \n * @method applyMaterial\n * @private\n *\n *\n */\n\n#float_definitions\nfloat applyMaterial_1_0(float ID) {\n    #float_applications\n    return 1.;\n}\n\n#vec3_definitions\nvec3 applyMaterial_1_0(vec3 ID) {\n    #vec3_applications\n    return vec3(0);\n}\n\n#vec4_definitions\nvec4 applyMaterial_1_0(vec4 ID) {\n    #vec4_applications\n\n    return vec4(0);\n}\n\n\n\n/**\n * The MIT License (MIT)\n * \n * Copyright (c) 2015 Famous Industries Inc.\n * \n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n * \n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n * \n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.\n */\n\n/**\n * Calculates the intensity of light on a surface.\n *\n * @method applyLight\n * @private\n *\n */\nvec4 applyLight_2_1(in vec4 baseColor, in vec3 normal, in vec4 glossiness, int numLights, vec3 ambientColor, vec3 eyeVector, mat4 lightPosition, mat4 lightColor, vec3 v_position) {\n    vec3 diffuse = vec3(0.0);\n    bool hasGlossiness = glossiness.a > 0.0;\n    bool hasSpecularColor = length(glossiness.rgb) > 0.0;\n\n    for(int i = 0; i < 4; i++) {\n        if (i >= numLights) break;\n        vec3 lightDirection = normalize(lightPosition[i].xyz - v_position);\n        float lambertian = max(dot(lightDirection, normal), 0.0);\n\n        if (lambertian > 0.0) {\n            diffuse += lightColor[i].rgb * baseColor.rgb * lambertian;\n            if (hasGlossiness) {\n                vec3 halfVector = normalize(lightDirection + eyeVector);\n                float specularWeight = pow(max(dot(halfVector, normal), 0.0), glossiness.a);\n                vec3 specularColor = hasSpecularColor ? glossiness.rgb : lightColor[i].rgb;\n                diffuse += specularColor * specularWeight * lambertian;\n            }\n        }\n\n    }\n\n    return vec4(ambientColor + diffuse, baseColor.a);\n}\n\n\n\n\n\n/**\n * Writes the color of the pixel onto the screen\n *\n * @method main\n * @private\n *\n *\n */\nvoid main() {\n    vec4 material = u_baseColor.r >= 0.0 ? u_baseColor : applyMaterial_1_0(u_baseColor);\n\n    /**\n     * Apply lights only if flat shading is false\n     * and at least one light is added to the scene\n     */\n    bool lightsEnabled = (u_flatShading == 0.0) && (u_numLights > 0.0 || length(u_ambientLight) > 0.0);\n\n    vec3 normal = normalize(v_normal);\n    vec4 glossiness = u_glossiness.x < 0.0 ? applyMaterial_1_0(u_glossiness) : u_glossiness;\n\n    vec4 color = lightsEnabled ?\n    applyLight_2_1(material, normalize(v_normal), glossiness,\n               int(u_numLights),\n               u_ambientLight * u_baseColor.rgb,\n               normalize(v_eyeVector),\n               u_lightPosition,\n               u_lightColor,   \n               v_position)\n    : material;\n\n    gl_FragColor = color;\n    gl_FragColor.a *= u_opacity;   \n}\n"
 };
 
 module.exports = shaders;
 
-},{}],"/Users/user/NooraHealth/expandable-header-logo/public/coffee/Header.coffee":[function(require,module,exports){
+},{}],"/Users/user/expandable-header-logo/public/coffee/Header.coffee":[function(require,module,exports){
 var Box, DOMElement, FamousEngine, Logo, Node, Physics, Transitionable,
   bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
   extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
@@ -21229,7 +21229,7 @@ Logo = (function(superClass) {
 module.exports = Logo;
 
 
-},{"famous/core/FamousEngine":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/FamousEngine.js","famous/core/Node":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/Node.js","famous/dom-renderables/DOMElement":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/dom-renderables/DOMElement.js","famous/physics":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/index.js","famous/physics/bodies/Box":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/physics/bodies/Box.js","famous/transitions/Transitionable":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/transitions/Transitionable.js"}],"/Users/user/NooraHealth/expandable-header-logo/public/coffee/init.coffee":[function(require,module,exports){
+},{"famous/core/FamousEngine":"/Users/user/expandable-header-logo/node_modules/famous/core/FamousEngine.js","famous/core/Node":"/Users/user/expandable-header-logo/node_modules/famous/core/Node.js","famous/dom-renderables/DOMElement":"/Users/user/expandable-header-logo/node_modules/famous/dom-renderables/DOMElement.js","famous/physics":"/Users/user/expandable-header-logo/node_modules/famous/physics/index.js","famous/physics/bodies/Box":"/Users/user/expandable-header-logo/node_modules/famous/physics/bodies/Box.js","famous/transitions/Transitionable":"/Users/user/expandable-header-logo/node_modules/famous/transitions/Transitionable.js"}],"/Users/user/expandable-header-logo/public/coffee/init.coffee":[function(require,module,exports){
 var Camera, FamousEngine, Header, camera, header, scene;
 
 FamousEngine = require('famous/core/FamousEngine');
@@ -21251,4 +21251,4 @@ header = new Header();
 scene.addChild(header);
 
 
-},{"./Header.coffee":"/Users/user/NooraHealth/expandable-header-logo/public/coffee/Header.coffee","famous/components/Camera":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/components/Camera.js","famous/core/FamousEngine":"/Users/user/NooraHealth/expandable-header-logo/node_modules/famous/core/FamousEngine.js"}]},{},["/Users/user/NooraHealth/expandable-header-logo/public/coffee/Header.coffee","/Users/user/NooraHealth/expandable-header-logo/public/coffee/init.coffee"]);
+},{"./Header.coffee":"/Users/user/expandable-header-logo/public/coffee/Header.coffee","famous/components/Camera":"/Users/user/expandable-header-logo/node_modules/famous/components/Camera.js","famous/core/FamousEngine":"/Users/user/expandable-header-logo/node_modules/famous/core/FamousEngine.js"}]},{},["/Users/user/expandable-header-logo/public/coffee/Header.coffee","/Users/user/expandable-header-logo/public/coffee/init.coffee"]);
